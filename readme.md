@@ -32,4 +32,31 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 | 3<br>1<br>550<br>0 | Saldo atual: 0.0<br>Saldo atual: 550.0<br>Programa encerrado. |
 | 1<br>1000<br>2<br>500<br>0 | Saldo atual: 1000.0<br>Saldo atual: 500.0<br>Programa encerrado. |
 
-Certifique-se de testar o programa com esses exemplos e com outros casos possíveis.
+----
+
+## 2º Challenge Verificador de Número de Conta Bancária 
+
+## Descrição
+
+Este é um programa simples em Java para verificar se um número de conta bancária é válido. O número da conta deve ter exatamente 8 dígitos.
+
+## Funcionamento
+
+O programa solicitará ao usuário que digite o número da conta bancária. Em seguida, ele utilizará um bloco `try-catch` para verificar se o número da conta possui exatamente 8 dígitos. Se o número da conta tiver 8 dígitos, o programa informará que é um número válido. Se o número da conta não tiver 8 dígitos, o programa lançará uma exceção (`IllegalArgumentException`) e informará que o número da conta é inválido.
+
+## Exemplos
+
+A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectivas saídas esperadas. Certifique-se de testar o programa com esses exemplos e com outros casos possíveis.
+
+| Entrada    | Saída                                      |
+|------------|--------------------------------------------|
+| 01020304   | Numero de conta valido.                     |
+| 1234568    | Erro: Numero de conta invalido. Digite exatamente 8 digitos. |
+| 3231       | Erro: Numero de conta invalido. Digite exatamente 8 digitos. |
+
+## Execução
+
+Para executar o programa, compile o arquivo Java `VerificadorNumeroConta.java` e execute-o. Você será solicitado a inserir o número da conta bancária e receberá a saída correspondente.
+
+----
+
