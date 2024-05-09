@@ -83,3 +83,31 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 ## Execução
 
 Para executar o programa, compile o arquivo Java `VerificadorElegibilidadeConta.java` e execute-o. Você será solicitado a inserir a idade e receberá a saída correspondente.
+
+
+# 4º Challenge Verificador de Limite de Cheque Especial
+
+Este é um programa simples em Java para verificar se uma conta bancária ultrapassou o limite do cheque especial.
+
+## Entrada
+
+O programa solicita ao usuário que informe o saldo atual da conta bancária e o valor de um saque desejado.
+
+## Saída
+
+- Se o saque não ultrapassar o saldo disponível na conta, o programa informará que a transação foi realizada com sucesso.
+- Se o saque ultrapassar o saldo, o programa verificará se o valor do saque ultrapassa o cheque especial (definido como 500 unidades monetárias).
+  - Se ultrapassar, o programa informará que a transação não pode ser realizada devido ao limite excedido.
+  - Caso contrário, o programa informará que a transação foi realizada com sucesso, utilizando o cheque especial.
+
+## Exemplos
+
+| Entrada | Saída |
+|---------|-------|
+| 1000<br>100 | Transação realizada com sucesso. |
+| 2500<br>2750 | Transação realizada com sucesso utilizando o cheque especial. |
+| 300<br>1500 | Transação não realizada. Limite do cheque especial excedido. |
+
+Certifique-se de testar o programa com esses exemplos e com outros casos possíveis.
+
+----
