@@ -111,3 +111,33 @@ O programa solicita ao usuário que informe o saldo atual da conta bancária e o
 Certifique-se de testar o programa com esses exemplos e com outros casos possíveis.
 
 ----
+
+# 5º Challenge Controle Simples de Saques
+
+Este programa em Java permite que um cliente realize saques de uma conta bancária até atingir um limite diário predefinido.
+
+## Funcionamento
+
+O programa solicita ao usuário que informe o limite diário de saque e, em seguida, solicita o valor do primeiro saque. Utilizando um laço `for`, o programa itera sobre os saques, verificando se o valor ultrapassa o limite diário. Se o valor ultrapassar, o programa informa que o limite foi atingido e encerra o loop. Caso contrário, o programa informa que o saque foi realizado com sucesso.
+
+## Entrada
+
+- O programa solicitará ao usuário que informe o limite diário de saque.
+- Em seguida, o programa solicitará ao usuário que informe o valor do primeiro saque.
+
+## Saída
+
+- Para cada saque, o programa informará se foi realizado com sucesso ou se o limite diário foi atingido.
+- Ao final das transações, o programa informará que as transações foram encerradas.
+
+## Exemplos
+
+Aqui estão alguns exemplos de entrada e saída:
+
+| Entrada | Saída |
+|---------|-------|
+| 1500<br>430<br>0 | Saque realizado. Limite restante: 1070.0<br>Transações encerradas. |
+| 500<br>1500 | Limite diário de saque atingido. Transações encerradas. |
+| 80<br>40<br>0 | Saque realizado. Limite restante: 40.0<br>Transações encerradas. |
+
+Certifique-se de testar o programa com esses exemplos e com outros casos possíveis.
